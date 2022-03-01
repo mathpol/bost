@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RT2 on BOST Blog</title>
-    <link>https://github.com/mathpol/bost/tags/rt2/</link>
+    <link>https://mathpol.github.io/bost/tags/rt2/</link>
     <description>Recent content in RT2 on BOST Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://github.com/mathpol/bost/tags/rt2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mathpol.github.io/bost/tags/rt2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brazilian Open Science Training (BOST)</title>
-      <link>https://github.com/mathpol/bost/post/2020-12-01-r-rmarkdown/</link>
+      <link>https://mathpol.github.io/bost/post/2020-12-01-r-rmarkdown/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/mathpol/bost/post/2020-12-01-r-rmarkdown/</guid>
+      <guid>https://mathpol.github.io/bost/post/2020-12-01-r-rmarkdown/</guid>
       <description>Brazilian Open Science Training (BOST)Brazilian Open Science Training (BOST) surge com o objetivo de apresentar princípios e práticas de pesquisa aberta e transparente, em língua portuguesa, inspirados no Treinamento em Tansparência e Reprodutibilidade (RT2) oferecido pela Berkeley Initiative in the Social Science (BITSS). Durante o curso, as (os) participantes terão a oportunidade de aprender os princípios e habilidades necessários para produção do conhecimento científico que atendem os padrões internacionais para uma pesquisa de qualidade e confiável.</description>
     </item>
     
