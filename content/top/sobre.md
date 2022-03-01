@@ -7,7 +7,7 @@ Organizado por discentes e professores da UFPE e UFMG, o treinamento tem o apoio
 
 # Clique aqui para baixar o edital
 
-[Download Edital](/static/pdf/edital.pdf)
+[Download Edital](/docs/pdf/edital.pdf)
 
 # Link para inscrição
 
