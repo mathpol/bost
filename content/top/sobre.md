@@ -13,3 +13,5 @@ Organizado por discentes e professores da UFPE e UFMG, o treinamento tem o apoio
 
 
 Clique [aqui](https://docs.google.com/forms/d/1_TNHPAkoEejj-My7uS-jkkk4q18hvBCnh7jLk_gIYAA/edit) para se inscrever no evento.
+
+
