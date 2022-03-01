@@ -1,4 +1,4 @@
-baseurl: "https://github.com/mathpol/bost"
+baseurl: https://mathpol.github.io/bost/
 title: BOST Blog
 theme: hugo-theme-cleanwhite
 languageCode: en-us
