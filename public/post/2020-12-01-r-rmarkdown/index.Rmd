@@ -1,37 +1,25 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+title: "Brazilian Open Science Training (BOST)"
+author: "Matheus"
+date: 2022-02-22
+tags: ["BITSS", "RT2", "Transparency", "Social Science"]
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# R Markdown
+# Brazilian Open Science Training (BOST)
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Brazilian Open Science Training (BOST) surge com o objetivo de apresentar princípios e práticas de pesquisa aberta e transparente, em língua portuguesa, inspirados no Treinamento em Tansparência e Reprodutibilidade (RT2) oferecido pela Berkeley Initiative in the Social Science (BITSS). Durante o curso, as (os) participantes terão  a oportunidade de aprender os princípios e habilidades necessários para produção do conhecimento científico que atendem os padrões internacionais para uma pesquisa de qualidade e confiável.
 
-You can embed an R code chunk like this:
+Organizado por discentes e professores da UFPE e UFMG, o treinamento tem o apoio do CEGA/BITSS e promoverá a  formação de estudantes de pós-graduação durante 4 dias, aprofundando em temas como i) princípios da transparência e reprodutibilidade nas Ciências Sociais; ii) documentos dinâmicos em RMarkdown; iii) versionamento de arquivos em Git e Github com R Studio; iv) pré-registro e plano de pré-análise (pre-registration and pre-analysis plan); v) Open Science Framework; vi) passo a passo para tornar sua pesquisa transparente e reprodutível; e vii) transparência e replicabilidade fora da academia.
 
-```{r cars}
-summary(cars)
-fit <- lm(dist ~ speed, data = cars)
-fit
-```
+# Clique aqui para baixar o edital
 
-# Including Plots
+[Download Edital](/static/pdf/edital.pdf)
 
-You can also embed plots. See Figure \@ref(fig:pie) for example:
+# Link para inscrição
 
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
-par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
-  col = c('#0292D8', '#F7EA39', '#C4B632'),
-  init.angle = -50, border = NA
-)
-```
+
+Clique [aqui](https://docs.google.com/forms/d/1_TNHPAkoEejj-My7uS-jkkk4q18hvBCnh7jLk_gIYAA/edit) para se inscrever no evento.
