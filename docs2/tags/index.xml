@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on BOST Blog</title>
+    <link>https://mathpol.github.io/bost/tags/</link>
+    <description>Recent content in Tags on BOST Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mathpol.github.io/bost/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BITSS</title>
+      <link>https://mathpol.github.io/bost/tags/bitss/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathpol.github.io/bost/tags/bitss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RT2</title>
+      <link>https://mathpol.github.io/bost/tags/rt2/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathpol.github.io/bost/tags/rt2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Science</title>
+      <link>https://mathpol.github.io/bost/tags/social-science/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathpol.github.io/bost/tags/social-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transparency</title>
+      <link>https://mathpol.github.io/bost/tags/transparency/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathpol.github.io/bost/tags/transparency/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
