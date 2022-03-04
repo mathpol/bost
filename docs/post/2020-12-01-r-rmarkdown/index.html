@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="BOST Blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://mathpol.github.io/bost//img/tag-bg.jpg">
+    <meta property="twitter:image" content="https://mathpol.github.io/bost//img/tag-bg.jpg" />
+    
+
+    
+    <meta name="title" content="Brazilian Open Science Training (BOST)" />
+    <meta property="og:title" content="Brazilian Open Science Training (BOST)" />
+    <meta property="twitter:title" content="Brazilian Open Science Training (BOST)" />
+    
+
+    
+    <meta name="description" content="DESCRIPTION">
+    <meta property="og:description" content="DESCRIPTION" />
+    <meta property="twitter:description" content="DESCRIPTION" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/bost/img/favicon.ico">
+
+    <title>Brazilian Open Science Training (BOST)-BOST</title>
+
+    <link rel="canonical" href="/bost/post/2020-12-01-r-rmarkdown/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/bost/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/bost/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/bost/css/zanshang.css">
+
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/bost/js/jquery.min.js"></script>
+
+    
+    <script src="/bost/js/bootstrap.min.js"></script>
+
+    
+    <script src="/bost/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/bost/">BOST Blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/bost/">Home</a>
+                    </li>
+                    
+                        
+                    
+                    
+		    
+                        <li><a href="/bost/top/sobre/">SOBRE</a></li>
+                    
+                        <li><a href="/bost/top/documentos/">Documentos</a></li>
+                    
+                        <li><a href="/bost/top/inscricao/">Inscrição</a></li>
+                    
+                        <li><a href="/bost/top/pessoas/">Pessoas</a></li>
+                    
+
+                    
+		    <li>
+                        <a href="/bost/search"><i class="fa fa-search"></i></a>
+		    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/bost/img/tag-bg.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/bost/tags/bitss" title="BITSS">
+                            BITSS
+                        </a>
+                        
+                        <a class="tag" href="/bost/tags/rt2" title="RT2">
+                            RT2
+                        </a>
+                        
+                        <a class="tag" href="/bost/tags/transparency" title="Transparency">
+                            Transparency
+                        </a>
+                        
+                        <a class="tag" href="/bost/tags/social-science" title="Social Science">
+                            Social Science
+                        </a>
+                        
+                    </div>
+                    <h1>Brazilian Open Science Training (BOST)</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                Matheus
+                             
+                            on 
+                            Tuesday, February 22, 2022
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                
+<script src="https://mathpol.github.io/bost/post/2020-12-01-r-rmarkdown/index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="brazilian-open-science-training-bost" class="section level1">
+<h1>Brazilian Open Science Training (BOST)</h1>
+<p>Brazilian Open Science Training (BOST) surge com o objetivo de apresentar princípios e práticas de pesquisa aberta e transparente, em língua portuguesa, inspirados no Treinamento em Tansparência e Reprodutibilidade (RT2) oferecido pela Berkeley Initiative in the Social Science (BITSS). Durante o curso, as (os) participantes terão a oportunidade de aprender os princípios e habilidades necessários para produção do conhecimento científico que atendem os padrões internacionais para uma pesquisa de qualidade e confiável.</p>
+<p>Organizado por discentes e professores da UFPE e UFMG, o treinamento tem o apoio do CEGA/BITSS e promoverá a formação de estudantes de pós-graduação durante 4 dias, aprofundando em temas como i) princípios da transparência e reprodutibilidade nas Ciências Sociais; ii) documentos dinâmicos em RMarkdown; iii) versionamento de arquivos em Git e Github com R Studio; iv) pré-registro e plano de pré-análise (pre-registration and pre-analysis plan); v) Open Science Framework; vi) passo a passo para tornar sua pesquisa transparente e reprodutível; e vii) transparência e replicabilidade fora da academia.</p>
+</div>
+<div id="clique-aqui-para-baixar-o-edital" class="section level1">
+<h1>Clique aqui para baixar o edital</h1>
+<p><a href="https://drive.google.com/file/d/1AajuNpTlUaVQ_eD18thimHQiCuNooonU/view?usp=sharing">Download Edital</a></p>
+</div>
+<div id="link-para-inscrição" class="section level1">
+<h1>Link para inscrição</h1>
+<p>Clique <a href="https://docs.google.com/forms/d/1_TNHPAkoEejj-My7uS-jkkk4q18hvBCnh7jLk_gIYAA/edit">aqui</a> para se inscrever no evento.</p>
+</div>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    
+                </ul>
+                
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                    
+
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; BOST Blog 2022
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/bost\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+</body>
+</html>
