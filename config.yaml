@@ -22,6 +22,8 @@ params:
       title: Documentos
     - href: /top/inscricao/
       title: Inscrição
+    - href: /top/programacao/
+      title: Programação      
     - href: /top/pessoas/
       title: Pessoas
   algolia:
